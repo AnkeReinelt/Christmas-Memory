@@ -16,7 +16,7 @@ class EndVC: UIViewController {
     override func viewDidLoad(){
         super.viewDidLoad()
         createSantaClause()
-        gameOverText.text = "Du hast das Memory in \(sVars.gameTime) Sekunden gelöst."
+        gameOverText.text = "You solved the memory in \(sVars.gameTime) seconds."
     }
     
     
